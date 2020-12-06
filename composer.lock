@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d47f3f12737085cba9ae1a203c7937c9",
+    "content-hash": "2f930c2b3d6361375c6efbeec4fad1b0",
     "packages": [
         {
             "name": "acquia/blt",
@@ -3198,6 +3198,49 @@
             }
         },
         {
+            "name": "drupal/bfd",
+            "version": "2.54.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/bfd.git",
+                "reference": "8.x-2.54"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bfd-8.x-2.54.zip",
+                "reference": "8.x-2.54",
+                "shasum": "f78307e65ca64860ffe48408bc7304ab176ccfc4"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.54",
+                    "datestamp": "1592911114",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "OCTOGONE.dev",
+                    "homepage": "https://www.drupal.org/user/3587404"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/bfd",
+            "support": {
+                "source": "https://git.drupalcode.org/project/bfd"
+            }
+        },
+        {
             "name": "drupal/bg_image_formatter",
             "version": "1.14.0",
             "source": {
@@ -4500,50 +4543,6 @@
             }
         },
         {
-            "name": "drupal/custom_add_content",
-            "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/custom_add_content.git",
-                "reference": "8.x-1.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/custom_add_content-8.x-1.2.zip",
-                "reference": "8.x-1.2",
-                "shasum": "2c427de17d811808311ee4cfd3573e6cbcb042c9"
-            },
-            "require": {
-                "drupal/core": "^8.7.7 || ^9"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-1.2",
-                    "datestamp": "1589307286",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "rcodina",
-                    "homepage": "https://www.drupal.org/user/2635031"
-                }
-            ],
-            "description": "Allows you to customize the \"add content\" page by converting it to a menu named \"Custom add content page\".",
-            "homepage": "https://www.drupal.org/project/custom_add_content",
-            "support": {
-                "source": "https://git.drupalcode.org/project/custom_add_content"
-            }
-        },
-        {
             "name": "drupal/devel",
             "version": "2.1.0",
             "source": {
@@ -5374,6 +5373,74 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/entity_usage",
                 "issues": "http://drupal.org/project/issues/entity_usage"
+            }
+        },
+        {
+            "name": "drupal/external_entities",
+            "version": "2.0.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/external_entities.git",
+                "reference": "8.x-2.0-alpha2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/external_entities-8.x-2.0-alpha2.zip",
+                "reference": "8.x-2.0-alpha2",
+                "shasum": "63860675daaffa88ef8244e927712cbf1dbb5859"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.0-alpha2",
+                    "datestamp": "1560935889",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Hanno",
+                    "homepage": "https://www.drupal.org/user/18826"
+                },
+                {
+                    "name": "Jelle_S",
+                    "homepage": "https://www.drupal.org/user/829198"
+                },
+                {
+                    "name": "Wim Leers",
+                    "homepage": "https://www.drupal.org/user/99777"
+                },
+                {
+                    "name": "attiks",
+                    "homepage": "https://www.drupal.org/user/105002"
+                },
+                {
+                    "name": "clemens.tolboom",
+                    "homepage": "https://www.drupal.org/user/125814"
+                },
+                {
+                    "name": "rodrigoaguilera",
+                    "homepage": "https://www.drupal.org/user/408170"
+                },
+                {
+                    "name": "rp7",
+                    "homepage": "https://www.drupal.org/user/219330"
+                }
+            ],
+            "description": "Allows using remote entities, for example through a REST interface.",
+            "homepage": "https://www.drupal.org/project/external_entities",
+            "support": {
+                "source": "https://git.drupalcode.org/project/external_entities"
             }
         },
         {
@@ -9398,6 +9465,54 @@
             }
         },
         {
+            "name": "drupal/views_database_connector",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/views_database_connector.git",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/views_database_connector-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "8c44c2954d949b17cb6f116911f52aa0032b6eaf"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1591848667",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "andileco",
+                    "homepage": "https://www.drupal.org/user/2054544"
+                },
+                {
+                    "name": "bulldozer2003",
+                    "homepage": "https://www.drupal.org/user/1502734"
+                }
+            ],
+            "description": "Gives Views the ability to see each external database's tables from settings.php.",
+            "homepage": "https://www.drupal.org/project/views_database_connector",
+            "support": {
+                "source": "https://git.drupalcode.org/project/views_database_connector"
+            }
+        },
+        {
             "name": "drupal/views_infinite_scroll",
             "version": "1.7.0",
             "source": {
@@ -9451,6 +9566,68 @@
             "homepage": "https://www.drupal.org/project/views_infinite_scroll",
             "support": {
                 "source": "https://git.drupalcode.org/project/views_infinite_scroll"
+            }
+        },
+        {
+            "name": "drupal/wsdata",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/wsdata.git",
+                "reference": "2.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/wsdata-2.0.0.zip",
+                "reference": "2.0.0",
+                "shasum": "b426cfc74ac085a357581693a2127e5ec6ca0ef2"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "require-dev": {
+                "drupal/token": "*",
+                "drupal/wsdata_block": "*",
+                "drupal/wsdata_field": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0",
+                    "datestamp": "1602783699",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "ClassicCut",
+                    "homepage": "https://www.drupal.org/user/2703101"
+                },
+                {
+                    "name": "MorinLuc0",
+                    "homepage": "https://www.drupal.org/user/2013882"
+                },
+                {
+                    "name": "minorOffense",
+                    "homepage": "https://www.drupal.org/user/129088"
+                },
+                {
+                    "name": "spotzero",
+                    "homepage": "https://www.drupal.org/user/657848"
+                }
+            ],
+            "description": "Web service module for drupal, This module allows a user to create configurations to make webservice calls.",
+            "homepage": "http://drupal.org/project/wsdata",
+            "support": {
+                "source": "https://github.com/spotzero/wsdata/tree/8.x-1.x",
+                "issues": "https://github.com/spotzero/wsdata/issues"
             }
         },
         {
@@ -16929,6 +17106,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "acquia/blt": 20,
+        "drupal/external_entities": 15,
         "drupal/paragraphs_frontend_ui": 15,
         "acquia/blt-require-dev": 20
     },

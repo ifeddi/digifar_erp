@@ -1,12 +1,12 @@
 # METADATA
-name: 'Bootstrap for Drupal - Subtheme'
+name: 'Digifar - Bootstrap for Drupal - Subtheme'
 type: theme
 description: 'A pragmatic Bootstrap 4 theme for Drupal 8 and Drupal 9. This theme aims to provide users with the best possible experience out of the box. It also aim to be a Bootstrap 4 base solution for developers with SCSS files provided. Created by octogone.dev.'
 core: 8.x
 core_version_requirement: ^8 || ^9
-base theme: bootstrap_for_drupal
+base theme: bootstrap_for_drupal_subtheme
 libraries:
-  - bootstrap_for_drupal_subtheme/global-styling
+  - digifar_subtheme/global-styling
 libraries-override:
   bootstrap_for_drupal/global-styling:
     css:
@@ -32,6 +32,6 @@ regions:
   modal_container: 'Modal box container'
 
 # Information added by Drupal.org packaging script on 2020-06-23
-version: '8.x-2.54'
+version: '0.0.1'
 project: 'bfd'
 datestamp: 1592911116
