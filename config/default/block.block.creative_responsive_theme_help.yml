@@ -1,0 +1,22 @@
+uuid: 6e8a959e-f252-41d2-83d9-2edd711a715a
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - creative_responsive_theme
+_core:
+  default_config_hash: XcucItP0q7kL0mbbFB6ORTYQq631p478-3kQxVHIZDU
+id: creative_responsive_theme_help
+theme: creative_responsive_theme
+region: highlighted
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

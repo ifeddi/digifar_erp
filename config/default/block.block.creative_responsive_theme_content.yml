@@ -1,0 +1,22 @@
+uuid: ce7761bc-aa28-4bdc-b641-1ad026d6b0f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - creative_responsive_theme
+_core:
+  default_config_hash: BI2cnDdYGrlfwpU3S3VvGKjD5M1Ep2AHKflxRnfr4t4
+id: creative_responsive_theme_content
+theme: creative_responsive_theme
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

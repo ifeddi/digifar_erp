@@ -1,0 +1,27 @@
+uuid: cf19a9b2-c076-4b8f-baba-b5a2af00e26e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - creative_responsive_theme
+_core:
+  default_config_hash: 7TfIJlAyvTNC9JopTrJSmj1zXsgJHkd8r-wpLlvEBGA
+id: creative_responsive_theme_account_menu
+theme: creative_responsive_theme
+region: auto_hidden_block
+weight: 11
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

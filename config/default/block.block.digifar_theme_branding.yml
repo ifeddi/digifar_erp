@@ -1,0 +1,25 @@
+uuid: 74c21388-7306-4128-8725-f7d8802bc6b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - digifar_theme
+_core:
+  default_config_hash: 8DOljut2opf3ghAOmP2wue5IdWJxIFuTChmuB7wgGXk
+id: digifar_theme_branding
+theme: digifar_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

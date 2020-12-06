@@ -52,6 +52,8 @@ content:
     third_party_settings: {  }
 hidden:
   body: true
+  content_moderation_control: true
+  langcode: true
   layout_builder__layout: true
   layout_selection: true
   links: true
