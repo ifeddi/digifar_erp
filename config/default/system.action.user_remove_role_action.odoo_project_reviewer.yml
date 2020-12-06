@@ -1,0 +1,14 @@
+uuid: abb9f043-e181-4afa-b939-23dd7859d313
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.odoo_project_reviewer
+  module:
+    - user
+id: user_remove_role_action.odoo_project_reviewer
+label: 'Enlever le rôle Odoo project reviewer des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: odoo_project_reviewer

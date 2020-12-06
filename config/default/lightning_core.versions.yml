@@ -32,6 +32,7 @@ entity_block: 1.0.0-beta3
 entity_browser: 2.5.0
 entity_browser_block: 1.1.0
 entity_embed: 1.1.0
+external_data_source: 2.2.0
 external_entities: 2.0.0-alpha2
 field: 8.8.6
 field_ui: 8.8.6
@@ -133,6 +134,7 @@ user: 8.8.6
 video_embed_field: 2.4.0
 video_embed_media: 2.4.0
 views: 8.8.6
+views_database_connector: 1.4.0
 views_infinite_scroll: 1.7.0
 views_ui: 8.8.6
 workflows: 8.8.6

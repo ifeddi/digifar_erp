@@ -1,0 +1,21 @@
+uuid: 8ca7232f-296c-4e89-92ea-a3f6d21b4366
+langcode: fr
+status: true
+dependencies:
+  module:
+    - lightning_workflow
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  lightning_workflow:
+    workflow: editorial
+name: 'Odoo project'
+type: odoo_project
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

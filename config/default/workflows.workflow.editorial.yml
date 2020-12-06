@@ -2,27 +2,31 @@ uuid: 72bf0a39-2354-47bd-8295-2007d56822e6
 langcode: en
 status: true
 dependencies:
+  config:
+    - node.type.landing_page
+    - node.type.odoo_project
+    - node.type.page
   module:
     - content_moderation
 _core:
   default_config_hash: 8FLw3dX-3yJxrgAtaiNul_N8e8yc70gQD4u9UehUHhs
 id: editorial
-label: Editorial
+label: Éditorial
 type: content_moderation
 type_settings:
   states:
     archived:
-      label: Archived
+      label: Archivé
       weight: 5
       published: false
       default_revision: true
     draft:
-      label: Draft
+      label: Brouillon
       published: false
       default_revision: false
       weight: -5
     published:
-      label: Published
+      label: Publié
       published: true
       default_revision: true
       weight: 0
@@ -33,7 +37,7 @@ type_settings:
       default_revision: false
   transitions:
     archive:
-      label: Archive
+      label: Archiver
       from:
         - published
       to: archived
@@ -45,7 +49,7 @@ type_settings:
       to: published
       weight: 4
     create_new_draft:
-      label: 'Create New Draft'
+      label: 'Créer un Nouveau Brouillon'
       to: draft
       weight: 0
       from:
@@ -54,7 +58,7 @@ type_settings:
         - published
         - review
     publish:
-      label: Publish
+      label: Publier
       to: published
       weight: 1
       from:
@@ -71,4 +75,5 @@ type_settings:
   entity_types:
     node:
       - landing_page
+      - odoo_project
       - page

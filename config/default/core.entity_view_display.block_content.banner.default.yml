@@ -7,9 +7,11 @@ dependencies:
     - field.field.block_content.banner.field_banner_image
     - field.field.block_content.banner.field_link
     - field.field.block_content.banner.field_summary
+    - field.field.block_content.banner.field_test_ext_res
     - field.field.block_content.banner.field_title
   module:
     - bg_image_formatter
+    - external_data_source
     - link
 _core:
   default_config_hash: uxz6UULElzOJv5OWJVKIpGjpbt2nVclXZJCN2g9KpC0
@@ -56,6 +58,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: basic_string
+    region: content
+  field_test_ext_res:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: external_data_source_formatter
     region: content
   field_title:
     weight: 1

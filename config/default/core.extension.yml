@@ -31,7 +31,7 @@ module:
   entity_browser: 0
   entity_browser_block: 0
   entity_embed: 0
-  external_entities: 0
+  external_data_source: 0
   field: 0
   field_ui: 0
   file: 0
@@ -89,7 +89,6 @@ module:
   node: 0
   odoo_api: 0
   odoo_api_entity_sync: 0
-  odoo_api_entity_sync_example: 0
   odoo_api_entity_sync_messages: 0
   odoo_api_logs: 0
   odoo_api_migrate: 0
@@ -131,7 +130,6 @@ module:
   views_infinite_scroll: 0
   views_ui: 0
   workflows: 0
-  wsdata: 0
   menu_link_content: 1
   pathauto: 1
   content_translation: 10

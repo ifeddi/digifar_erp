@@ -1,0 +1,11 @@
+uuid: e74c7c2f-82b5-493e-b8ee-eac1d515d928
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.odoo_project
+id: node.odoo_project
+target_entity_type_id: node
+target_bundle: odoo_project
+default_langcode: site_default
+language_alterable: false

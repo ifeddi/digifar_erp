@@ -11,7 +11,7 @@ dependencies:
 _core:
   default_config_hash: qEX0c8Yf878jYMC-3TrFlGSSNQeGbl3u0Hs6GJfxA38
 id: content
-name: Content
+name: Contenu
 description: 'An index of all content in your site.'
 read_only: false
 field_settings:
@@ -40,6 +40,7 @@ field_settings:
       view_mode:
         'entity:node':
           landing_page: full
+          odoo_project: default
           page: default
   status:
     label: null

@@ -9,7 +9,7 @@ dependencies:
 _core:
   default_config_hash: A5fC0NmIv6Nbef4B0OtaVoUW8hX66FE6di-BEKjIgI4
 id: search
-label: Search
+label: Rechercher
 module: views
 description: ''
 tag: ''
@@ -19,7 +19,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Master
+    display_title: Maître
     position: 0
     display_options:
       access:
@@ -37,10 +37,10 @@ display:
       exposed_form:
         type: input_required
         options:
-          submit_button: Search
+          submit_button: Rechercher
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Réinitialiser
+          exposed_sorts_label: 'Trier par'
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
@@ -55,12 +55,12 @@ display:
           total_pages: null
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Éléments par page'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- Tout -'
             offset: false
-            offset_label: Offset
+            offset_label: Décalage
           tags:
             previous: ‹‹
             next: ››
@@ -77,6 +77,7 @@ display:
           view_modes:
             'entity:node':
               landing_page: teaser
+              odoo_project: default
               page: teaser
       fields:
         rendered:
@@ -147,7 +148,7 @@ display:
           exposed: true
           expose:
             operator_id: search_api_fulltext_op
-            label: Keywords
+            label: Mots-clés
             description: ''
             use_operator: false
             operator: search_api_fulltext_op
@@ -212,13 +213,13 @@ display:
           empty: true
           tokenize: false
           content:
-            value: 'Your search did not return any results.'
+            value: 'Votre recherche n''a donné aucun résultat.'
             format: rich_text
           plugin_id: text
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
-      title: Search
+      title: Rechercher
     cache_metadata:
       max-age: -1
       contexts:

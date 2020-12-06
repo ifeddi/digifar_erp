@@ -1,0 +1,23 @@
+uuid: 9816f14f-528b-4742-b74d-6b016de0fc21
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.odoo_project
+  module:
+    - text
+id: node.odoo_project.body
+field_name: body
+entity_type: node
+bundle: odoo_project
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

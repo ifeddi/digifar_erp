@@ -7,9 +7,11 @@ dependencies:
     - field.field.block_content.banner.field_banner_image
     - field.field.block_content.banner.field_link
     - field.field.block_content.banner.field_summary
+    - field.field.block_content.banner.field_test_ext_res
     - field.field.block_content.banner.field_title
     - image.style.thumbnail
   module:
+    - external_data_source
     - image
     - link
 _core:
@@ -42,6 +44,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textarea
+    region: content
+  field_test_ext_res:
+    weight: 26
+    settings:
+      size: 1
+      placeholder: ''
+    third_party_settings: {  }
+    type: external_data_source_select_widget
     region: content
   field_title:
     weight: 1

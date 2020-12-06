@@ -1,0 +1,14 @@
+uuid: 6e005dba-7dd5-43a0-a628-e1f24263f6bb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.odoo_project_reviewer
+  module:
+    - user
+id: user_add_role_action.odoo_project_reviewer
+label: 'Ajouter le rôle Odoo project reviewer aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: odoo_project_reviewer

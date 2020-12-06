@@ -1,0 +1,21 @@
+uuid: 526d2b0f-a120-4655-99bc-eba276ef90e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.banner
+    - field.storage.block_content.field_test_ext_res
+  module:
+    - external_data_source
+id: block_content.banner.field_test_ext_res
+field_name: field_test_ext_res
+entity_type: block_content
+bundle: banner
+label: 'TEST ext res'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: external_data_source
