@@ -19,6 +19,7 @@
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-recommended": "^8.8.0",
         "drupal/devel": "^2.0.0",
+        "drupal/external_data_source": "^2.2",
         "drupal/external_entities": "^2.0@alpha",
         "drupal/features": "^3.8.0",
         "drupal/layout_builder_blocks": "^1.0",

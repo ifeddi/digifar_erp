@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2f930c2b3d6361375c6efbeec4fad1b0",
+    "content-hash": "21846177ae36b5ba8c0b440b773fd8ca",
     "packages": [
         {
             "name": "acquia/blt",
@@ -5373,6 +5373,62 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/entity_usage",
                 "issues": "http://drupal.org/project/issues/entity_usage"
+            }
+        },
+        {
+            "name": "drupal/external_data_source",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/external_data_source.git",
+                "reference": "8.x-2.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/external_data_source-8.x-2.2.zip",
+                "reference": "8.x-2.2",
+                "shasum": "d3fa79c03dca466d3af2af03905cb291fb0d5db9"
+            },
+            "require": {
+                "drupal/core": "^8"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.2",
+                    "datestamp": "1587762845",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "kynafuro",
+                    "homepage": "https://www.drupal.org/user/3619196"
+                },
+                {
+                    "name": "macherif",
+                    "homepage": "https://www.drupal.org/user/1132022"
+                }
+            ],
+            "description": "Fields for External Data Source.",
+            "homepage": "http://drupal.org/project/external_data_source",
+            "keywords": [
+                "Drupal",
+                "External Source Fields",
+                "Fields",
+                "Microservices",
+                "Webservices"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/external_data_source",
+                "issues": "https://www.drupal.org/project/issues/external_data_source"
             }
         },
         {
