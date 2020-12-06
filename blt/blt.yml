@@ -1,0 +1,65 @@
+# This file contains your BLT configuration. For a list of all available
+# properties with current values run `blt config:dump`. Default values come
+# from vendor/acquia/blt/config/build.yml.
+#
+# These values can be overridden at the command line using `--define`, i.e.:
+# blt setup --define project.profile.name=minimal
+#
+# However, when tokens in this file are expanded, they will not use any such
+# command-line overrides. For instance, `blt sync --define drush.aliases.local`
+# will not modify `drush.default_alias`, even though `drush.default_alias` is
+# set to `drush.aliases.local` by default.
+project:
+  machine_name: digi-far
+  prefix: BLT
+  human_name: 'Digifar ERP'
+  profile:
+    name: lightning
+  local:
+    protocol: http
+    hostname: 'local.${project.machine_name}.com'
+git:
+  default_branch: master
+  remotes: {  }
+deploy:
+  tag_source: true
+drush:
+  aliases:
+    remote: '${project.machine_name}.test'
+    local: self
+    ci: self
+  default_alias: '${drush.aliases.local}'
+modules:
+  local:
+    enable:
+      - dblog
+      - devel
+      - seckit
+      - views_ui
+    uninstall:
+      - acquia_connector
+      - shield
+  ci:
+    enable: {  }
+    uninstall:
+      - acquia_connector
+      - shield
+  dev:
+    enable:
+      - acquia_connector
+      - shield
+    uninstall: {  }
+  test:
+    enable:
+      - acquia_connector
+      - shield
+    uninstall:
+      - devel
+      - views_ui
+  prod:
+    enable:
+      - acquia_connector
+      - shield
+    uninstall:
+      - devel
+      - views_ui
