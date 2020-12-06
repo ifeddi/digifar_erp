@@ -1,6 +1,6 @@
-database: ''
-username: ''
-password: ''
-url: ''
+database: demo
+username: issamfeddi@gmail.com
+password: '123456789'
+url: 'http://4web.ma:8069'
 _core:
   default_config_hash: 1yN2lnn9goMnMaBZ3HluiX9lObksvouufLMJMxhEbhY

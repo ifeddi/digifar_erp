@@ -1,0 +1,27 @@
+uuid: 7cf1865c-8655-42d9-9fe9-171c99fce3a8
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - digifar_subtheme
+_core:
+  default_config_hash: i3-Bfcy7mUOFUuBsvjkzr2d_0OVGMKd6he66wwowb8g
+id: digifar_subtheme_footer
+theme: digifar_subtheme
+region: header_special
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

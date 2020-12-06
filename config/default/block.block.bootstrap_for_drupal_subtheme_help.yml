@@ -1,0 +1,22 @@
+uuid: 4ce3222d-521d-4fb4-91e8-5866230cf067
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - bootstrap_for_drupal_subtheme
+_core:
+  default_config_hash: mV5IuJ86tSYefOsLFJuWLuBEnf_Hdrnexrtm5EWj7oU
+id: bootstrap_for_drupal_subtheme_help
+theme: bootstrap_for_drupal_subtheme
+region: content_before
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

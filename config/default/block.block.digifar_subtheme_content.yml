@@ -1,0 +1,22 @@
+uuid: 5fcbe441-f0b6-4f75-8b07-1742225cfff0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - digifar_subtheme
+_core:
+  default_config_hash: o3puD7N1B2FSqFKI2hAXjdf1jJdJXz_LNjiFlyB3TCU
+id: digifar_subtheme_content
+theme: digifar_subtheme
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

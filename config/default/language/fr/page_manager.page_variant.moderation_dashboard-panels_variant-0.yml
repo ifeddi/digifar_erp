@@ -1,0 +1,9 @@
+label: Panels
+variant_settings:
+  blocks:
+    bcc91274-24b8-4755-9bf5-e6f104674898:
+      label: 'Dernières mises à jour'
+      views_label: 'Dernières mises à jour'
+    1a06173d-634b-4475-a80b-d23a9773083b:
+      label: 'Créé récemment'
+      views_label: 'Créé récemment'

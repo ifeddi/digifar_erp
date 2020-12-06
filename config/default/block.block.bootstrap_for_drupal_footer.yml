@@ -1,0 +1,27 @@
+uuid: 1507b0e0-7b19-4fc9-bf9b-7eac8548c66d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - bootstrap_for_drupal
+_core:
+  default_config_hash: ZTOl-gAj083QQeZUIN6u5CGVYMC8H6jr2XDjtBWYnoE
+id: bootstrap_for_drupal_footer
+theme: bootstrap_for_drupal
+region: nav_add
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

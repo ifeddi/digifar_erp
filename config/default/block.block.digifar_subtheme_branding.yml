@@ -1,0 +1,25 @@
+uuid: 853f9d53-dd19-4aec-92a3-f57367ee0df9
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - digifar_subtheme
+_core:
+  default_config_hash: 8DOljut2opf3ghAOmP2wue5IdWJxIFuTChmuB7wgGXk
+id: digifar_subtheme_branding
+theme: digifar_subtheme
+region: header_special
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

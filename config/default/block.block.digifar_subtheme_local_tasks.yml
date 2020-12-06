@@ -1,0 +1,22 @@
+uuid: 752e57c8-178d-453b-94a0-56e8f6f8749c
+langcode: en
+status: false
+dependencies:
+  theme:
+    - digifar_subtheme
+_core:
+  default_config_hash: '-1kreZ2WrgY02XhzwoCoocS09UVM_aw21CD4VbX1Vrw'
+id: digifar_subtheme_local_tasks
+theme: digifar_subtheme
+region: header_special
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

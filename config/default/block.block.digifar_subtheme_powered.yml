@@ -1,0 +1,22 @@
+uuid: 12a184b4-28cd-4540-9ff4-7c14837023c2
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - digifar_subtheme
+_core:
+  default_config_hash: CQHTaNIUo98bZEeReaygg0XiU8YaPNNZEyXkJuxCAFI
+id: digifar_subtheme_powered
+theme: digifar_subtheme
+region: header_special
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

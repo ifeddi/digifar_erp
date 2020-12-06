@@ -1,0 +1,22 @@
+uuid: fcf3e723-76c6-4cc7-9806-a11481ba3bb2
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - digifar_subtheme
+_core:
+  default_config_hash: jUFxP-LJibC9b3L2to1J8JNLBQzVXlSRlyePm_z0eoQ
+id: digifar_subtheme_help
+theme: digifar_subtheme
+region: header_special
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,26 @@
+uuid: 21ee3b09-3b79-4120-83ca-9b3f55a7e436
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.content_recent
+  module:
+    - views
+  theme:
+    - bootstrap_for_drupal_subtheme
+_core:
+  default_config_hash: QUu7zI3cYhSJ6UYFV0-N__5b1xIEavtlkh5zOnrQPaI
+id: bootstrap_for_drupal_subtheme_views_block__content_recent_block_1
+theme: bootstrap_for_drupal_subtheme
+region: sidebar_left
+weight: -8
+provider: null
+plugin: 'views_block:content_recent-block_1'
+settings:
+  id: 'views_block:content_recent-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '5'
+visibility: {  }

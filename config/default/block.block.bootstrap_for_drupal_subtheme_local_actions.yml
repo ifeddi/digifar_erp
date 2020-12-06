@@ -1,0 +1,20 @@
+uuid: fa8da666-ae30-4f68-935e-32e77f6461fb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bootstrap_for_drupal_subtheme
+_core:
+  default_config_hash: aR8n4AzT4emCNN-Mx0XwB6k_bCO1ZYaXI8Hj4nwEZQ0
+id: bootstrap_for_drupal_subtheme_local_actions
+theme: bootstrap_for_drupal_subtheme
+region: content_before
+weight: -1
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

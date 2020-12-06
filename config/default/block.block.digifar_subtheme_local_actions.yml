@@ -1,0 +1,20 @@
+uuid: e4d34b8c-4fbb-4a97-8827-afe77f6e069b
+langcode: en
+status: false
+dependencies:
+  theme:
+    - digifar_subtheme
+_core:
+  default_config_hash: MyGPa-XJ-LAbay7NtrIahW1f5unj0omZIuGweGgKQqo
+id: digifar_subtheme_local_actions
+theme: digifar_subtheme
+region: header_special
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

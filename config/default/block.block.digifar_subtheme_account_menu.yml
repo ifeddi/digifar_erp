@@ -1,0 +1,27 @@
+uuid: e2ea76bc-dc00-44fe-bacb-5b9fb317bb43
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - digifar_subtheme
+_core:
+  default_config_hash: _jnzEbqLANduvFo-hYebZeZDF5Lp-X88j2tAsCZLF-g
+id: digifar_subtheme_account_menu
+theme: digifar_subtheme
+region: header_special
+weight: 11
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 833b6826-39cd-49b3-bc16-74f3d7da4503
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - digifar_subtheme
+_core:
+  default_config_hash: TJZRkGzDqeRlfH4LSHLjS9bztRae_DBcK9V6rjXykWM
+id: digifar_subtheme_messages
+theme: digifar_subtheme
+region: header_special
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

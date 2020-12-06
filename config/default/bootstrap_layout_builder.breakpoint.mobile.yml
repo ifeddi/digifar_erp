@@ -1,0 +1,10 @@
+uuid: a9111b04-e278-4449-9c68-77caf053f679
+langcode: en
+status: 1
+dependencies: {  }
+_core:
+  default_config_hash: E9VI8oYrb1Jt4AL0OJT59JJTQD4_FrRRP76rWFQ5kO8
+id: mobile
+label: Mobile
+base_class: col
+weight: '-8'

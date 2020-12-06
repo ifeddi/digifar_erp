@@ -1,0 +1,34 @@
+uuid: 72816c1f-f2a1-4816-bd26-d01330fd3d20
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.who_s_new
+  module:
+    - user
+    - views
+  theme:
+    - bootstrap_for_drupal_subtheme
+_core:
+  default_config_hash: 7GuilOC-C7QehNcSPcZA3jKFYXj6jzOxIABsQGwACXw
+id: bootstrap_for_drupal_subtheme_views_block__who_s_new_block_1
+theme: bootstrap_for_drupal_subtheme
+region: sidebar_left
+weight: -5
+provider: null
+plugin: 'views_block:who_s_new-block_1'
+settings:
+  id: 'views_block:who_s_new-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

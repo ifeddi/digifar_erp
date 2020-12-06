@@ -1,0 +1,20 @@
+uuid: ff95e813-a65a-4a1c-a154-5d99dff40a13
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bootstrap_for_drupal_subtheme
+_core:
+  default_config_hash: 9V-Vkm0gnv2LLokUXQaJ1N9ZDyNm0hpxyYlnb__qyTA
+id: bootstrap_for_drupal_subtheme_page_title
+theme: bootstrap_for_drupal_subtheme
+region: content
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

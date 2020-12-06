@@ -1,0 +1,20 @@
+uuid: a8c1ffd1-6c0c-40eb-aa09-d691c67d82d7
+langcode: en
+status: false
+dependencies:
+  theme:
+    - digifar_subtheme
+_core:
+  default_config_hash: '-U6JQ6y_8B9fED4wXcsdSNAGy1HqCkoiyl1e2poanEQ'
+id: digifar_subtheme_page_title
+theme: digifar_subtheme
+region: header_special
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
