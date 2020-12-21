@@ -1,0 +1,6 @@
+odoo_sync.configuration:
+  title: 'Odoo Configuration'
+  description: 'Odoo Configuration'
+  route_name: odoo_sync.configuration
+  parent: system.admin_config
+  weight: 100

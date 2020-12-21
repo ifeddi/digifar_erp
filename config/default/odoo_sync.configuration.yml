@@ -1,0 +1,691 @@
+odoo_api_url: 'http://4web.ma:8069'
+odoo_api_login: issamfeddi@gmail.com
+odoo_api_password: '123456789'
+odoo_api_database: demo
+odoo_models:
+  282: '282'
+  233: '233'
+  219: '219'
+name: null
+user_id: null
+user_partner_id: null
+active: null
+address_home_id: null
+is_address_home_a_company: null
+private_email: null
+country_id: null
+gender: null
+marital: null
+spouse_complete_name: null
+spouse_birthdate: null
+children: null
+place_of_birth: null
+country_of_birth: null
+birthday: null
+ssnid: null
+sinid: null
+identification_id: null
+passport_id: null
+bank_account_id: null
+permit_no: null
+visa_no: null
+visa_expire: null
+additional_note: null
+certificate: null
+study_field: null
+study_school: null
+emergency_contact: null
+emergency_phone: null
+km_home_work: null
+image_1920: null
+phone: null
+child_ids: null
+category_ids: null
+notes: null
+color: null
+barcode: null
+pin: null
+departure_reason: null
+departure_description: null
+message_main_attachment_id: null
+medic_exam: null
+vehicle: null
+contract_ids: null
+contract_id: null
+calendar_mismatch: null
+contracts_count: null
+contract_warning: null
+subordinate_ids: null
+expense_manager_id: null
+image_1024: null
+image_512: null
+image_256: null
+image_128: null
+activity_ids: null
+activity_state: null
+activity_user_id: null
+activity_type_id: null
+activity_date_deadline: null
+activity_summary: null
+activity_exception_decoration: null
+activity_exception_icon: null
+message_is_follower: null
+message_follower_ids: null
+message_partner_ids: null
+message_channel_ids: null
+message_ids: null
+message_unread: null
+message_unread_counter: null
+message_needaction: null
+message_needaction_counter: null
+message_has_error: null
+message_has_error_counter: null
+message_attachment_count: null
+website_message_ids: null
+message_has_sms_error: null
+department_id: null
+job_id: null
+job_title: null
+company_id: null
+address_id: null
+work_phone: null
+mobile_phone: null
+work_email: null
+work_location: null
+resource_id: null
+resource_calendar_id: null
+parent_id: null
+coach_id: null
+tz: null
+hr_presence_state: null
+last_activity: null
+last_activity_time: null
+attendance_ids: null
+last_attendance_id: null
+last_check_in: null
+last_check_out: null
+attendance_state: null
+hours_last_month: null
+hours_today: null
+hours_last_month_display: null
+leave_manager_id: null
+remaining_leaves: null
+current_leave_state: null
+current_leave_id: null
+leave_date_from: null
+leave_date_to: null
+leaves_count: null
+allocation_count: null
+allocation_used_count: null
+show_leaves: null
+is_absent: null
+allocation_display: null
+allocation_used_display: null
+child_all_count: null
+id: null
+display_name: null
+create_uid: null
+create_date: null
+write_uid: null
+write_date: null
+__last_update: null
+contents:
+  -
+    mname: '1'
+  -
+    muser_id: '1'
+  -
+    muser_partner_id: 0
+  -
+    mactive: 0
+  -
+    maddress_home_id: 0
+  -
+    mis_address_home_a_company: 0
+  -
+    mprivate_email: 0
+  -
+    mcountry_id: 0
+  -
+    mgender: 0
+  -
+    mmarital: 0
+  -
+    mspouse_complete_name: 0
+  -
+    mspouse_birthdate: 0
+  -
+    mchildren: 0
+  -
+    mplace_of_birth: 0
+  -
+    mcountry_of_birth: 0
+  -
+    mbirthday: 0
+  -
+    mssnid: 0
+  -
+    msinid: 0
+  -
+    midentification_id: 0
+  -
+    mpassport_id: 0
+  -
+    mbank_account_id: 0
+  -
+    mpermit_no: 0
+  -
+    mvisa_no: 0
+  -
+    mvisa_expire: 0
+  -
+    madditional_note: 0
+  -
+    mcertificate: 0
+  -
+    mstudy_field: 0
+  -
+    mstudy_school: 0
+  -
+    memergency_contact: 0
+  -
+    memergency_phone: 0
+  -
+    mkm_home_work: 0
+  -
+    mimage_1920: 0
+  -
+    mphone: 0
+  -
+    mchild_ids: 0
+  -
+    mcategory_ids: 0
+  -
+    mnotes: 0
+  -
+    mcolor: 0
+  -
+    mbarcode: 0
+  -
+    mpin: 0
+  -
+    mdeparture_reason: 0
+  -
+    mdeparture_description: 0
+  -
+    mmessage_main_attachment_id: 0
+  -
+    mmedic_exam: 0
+  -
+    mvehicle: 0
+  -
+    mcontract_ids: 0
+  -
+    mcontract_id: 0
+  -
+    mcalendar_mismatch: 0
+  -
+    mcontracts_count: 0
+  -
+    mcontract_warning: 0
+  -
+    msubordinate_ids: 0
+  -
+    mexpense_manager_id: 0
+  -
+    mimage_1024: 0
+  -
+    mimage_512: 0
+  -
+    mimage_256: 0
+  -
+    mimage_128: 0
+  -
+    mactivity_ids: 0
+  -
+    mactivity_state: 0
+  -
+    mactivity_user_id: 0
+  -
+    mactivity_type_id: 0
+  -
+    mactivity_date_deadline: 0
+  -
+    mactivity_summary: 0
+  -
+    mactivity_exception_decoration: 0
+  -
+    mactivity_exception_icon: 0
+  -
+    mmessage_is_follower: 0
+  -
+    mmessage_follower_ids: 0
+  -
+    mmessage_partner_ids: 0
+  -
+    mmessage_channel_ids: 0
+  -
+    mmessage_ids: 0
+  -
+    mmessage_unread: 0
+  -
+    mmessage_unread_counter: 0
+  -
+    mmessage_needaction: 0
+  -
+    mmessage_needaction_counter: 0
+  -
+    mmessage_has_error: 0
+  -
+    mmessage_has_error_counter: 0
+  -
+    mmessage_attachment_count: 0
+  -
+    mwebsite_message_ids: 0
+  -
+    mmessage_has_sms_error: 0
+  -
+    mdepartment_id: 0
+  -
+    mjob_id: 0
+  -
+    mjob_title: 0
+  -
+    mcompany_id: 0
+  -
+    maddress_id: 0
+  -
+    mwork_phone: 0
+  -
+    mmobile_phone: 0
+  -
+    mwork_email: 0
+  -
+    mwork_location: 0
+  -
+    mresource_id: 0
+  -
+    mresource_calendar_id: 0
+  -
+    mparent_id: 0
+  -
+    mcoach_id: 0
+  -
+    mtz: 0
+  -
+    mhr_presence_state: 0
+  -
+    mlast_activity: 0
+  -
+    mlast_activity_time: 0
+  -
+    mattendance_ids: 0
+  -
+    mlast_attendance_id: 0
+  -
+    mlast_check_in: 0
+  -
+    mlast_check_out: 0
+  -
+    mattendance_state: 0
+  -
+    mhours_last_month: 0
+  -
+    mhours_today: 0
+  -
+    mhours_last_month_display: 0
+  -
+    mleave_manager_id: 0
+  -
+    mremaining_leaves: 0
+  -
+    mcurrent_leave_state: 0
+  -
+    mcurrent_leave_id: 0
+  -
+    mleave_date_from: 0
+  -
+    mleave_date_to: 0
+  -
+    mleaves_count: 0
+  -
+    mallocation_count: 0
+  -
+    mallocation_used_count: 0
+  -
+    mshow_leaves: 0
+  -
+    mis_absent: 0
+  -
+    mallocation_display: 0
+  -
+    mallocation_used_display: 0
+  -
+    mchild_all_count: 0
+  -
+    mid: 0
+  -
+    mdisplay_name: 0
+  -
+    mcreate_uid: 0
+  -
+    mcreate_date: 0
+  -
+    mwrite_uid: 0
+  -
+    mwrite_date: 0
+  -
+    m__last_update: 0
+'': null
+mname: '1'
+muser_id: '1'
+muser_partner_id: '1'
+mactive: 0
+maddress_home_id: 0
+mis_address_home_a_company: 0
+mprivate_email: 0
+mcountry_id: 0
+mgender: 0
+mmarital: 0
+mspouse_complete_name: 0
+mspouse_birthdate: 0
+mchildren: 0
+mplace_of_birth: 0
+mcountry_of_birth: 0
+mbirthday: 0
+mssnid: 0
+msinid: 0
+midentification_id: 0
+mpassport_id: 0
+mbank_account_id: 0
+mpermit_no: 0
+mvisa_no: 0
+mvisa_expire: 0
+madditional_note: 0
+mcertificate: 0
+mstudy_field: 0
+mstudy_school: 0
+memergency_contact: 0
+memergency_phone: 0
+mkm_home_work: 0
+mimage_1920: 0
+mphone: 0
+mchild_ids: 0
+mcategory_ids: 0
+mnotes: 0
+mcolor: 0
+mbarcode: 0
+mpin: 0
+mdeparture_reason: 0
+mdeparture_description: 0
+mmessage_main_attachment_id: 0
+mmedic_exam: 0
+mvehicle: 0
+mcontract_ids: 0
+mcontract_id: 0
+mcalendar_mismatch: 0
+mcontracts_count: 0
+mcontract_warning: 0
+msubordinate_ids: 0
+mexpense_manager_id: 0
+mimage_1024: 0
+mimage_512: 0
+mimage_256: 0
+mimage_128: 0
+mactivity_ids: 0
+mactivity_state: 0
+mactivity_user_id: 0
+mactivity_type_id: 0
+mactivity_date_deadline: 0
+mactivity_summary: 0
+mactivity_exception_decoration: 0
+mactivity_exception_icon: 0
+mmessage_is_follower: 0
+mmessage_follower_ids: 0
+mmessage_partner_ids: 0
+mmessage_channel_ids: 0
+mmessage_ids: 0
+mmessage_unread: 0
+mmessage_unread_counter: 0
+mmessage_needaction: 0
+mmessage_needaction_counter: 0
+mmessage_has_error: 0
+mmessage_has_error_counter: 0
+mmessage_attachment_count: 0
+mwebsite_message_ids: 0
+mmessage_has_sms_error: 0
+mdepartment_id: 0
+mjob_id: 0
+mjob_title: 0
+mcompany_id: 0
+maddress_id: 0
+mwork_phone: 0
+mmobile_phone: 0
+mwork_email: 0
+mwork_location: 0
+mresource_id: 0
+mresource_calendar_id: 0
+mparent_id: 0
+mcoach_id: 0
+mtz: 0
+mhr_presence_state: 0
+mlast_activity: 0
+mlast_activity_time: 0
+mattendance_ids: 0
+mlast_attendance_id: 0
+mlast_check_in: 0
+mlast_check_out: 0
+mattendance_state: 0
+mhours_last_month: 0
+mhours_today: 0
+mhours_last_month_display: 0
+mleave_manager_id: 0
+mremaining_leaves: 0
+mcurrent_leave_state: 0
+mcurrent_leave_id: 0
+mleave_date_from: 0
+mleave_date_to: 0
+mleaves_count: 0
+mallocation_count: 0
+mallocation_used_count: 0
+mshow_leaves: 0
+mis_absent: 0
+mallocation_display: 0
+mallocation_used_display: 0
+mchild_all_count: 0
+mid: 0
+mdisplay_name: 0
+mcreate_uid: 0
+mcreate_date: 0
+mwrite_uid: 0
+mwrite_date: 0
+m__last_update: 0
+233name: '1'
+233user_id: 0
+233user_partner_id: '1'
+233active: 0
+233address_home_id: 0
+233is_address_home_a_company: 0
+233private_email: 0
+233country_id: 0
+233gender: '1'
+233marital: 0
+233spouse_complete_name: 0
+233spouse_birthdate: 0
+233children: 0
+233place_of_birth: 0
+233country_of_birth: 0
+233birthday: '1'
+233ssnid: 0
+233sinid: 0
+233identification_id: 0
+233passport_id: 0
+233bank_account_id: 0
+233permit_no: 0
+233visa_no: 0
+233visa_expire: 0
+233additional_note: 0
+233certificate: 0
+233study_field: 0
+233study_school: 0
+233emergency_contact: 0
+233emergency_phone: 0
+233km_home_work: 0
+233image_1920: '1'
+233phone: '1'
+233child_ids: 0
+233category_ids: 0
+233notes: 0
+233color: 0
+233barcode: 0
+233pin: 0
+233departure_reason: 0
+233departure_description: 0
+233message_main_attachment_id: 0
+233medic_exam: 0
+233vehicle: 0
+233contract_ids: 0
+233contract_id: 0
+233calendar_mismatch: 0
+233contracts_count: 0
+233contract_warning: 0
+233subordinate_ids: 0
+233expense_manager_id: 0
+233image_1024: 0
+233image_512: 0
+233image_256: 0
+233image_128: 0
+233activity_ids: 0
+233activity_state: 0
+233activity_user_id: 0
+233activity_type_id: 0
+233activity_date_deadline: 0
+233activity_summary: 0
+233activity_exception_decoration: 0
+233activity_exception_icon: 0
+233message_is_follower: 0
+233message_follower_ids: 0
+233message_partner_ids: 0
+233message_channel_ids: 0
+233message_ids: 0
+233message_unread: 0
+233message_unread_counter: 0
+233message_needaction: 0
+233message_needaction_counter: 0
+233message_has_error: 0
+233message_has_error_counter: 0
+233message_attachment_count: 0
+233website_message_ids: 0
+233message_has_sms_error: 0
+233department_id: '1'
+233job_id: 0
+233job_title: 0
+233company_id: 0
+233address_id: '1'
+233work_phone: 0
+233mobile_phone: '1'
+233work_email: 0
+233work_location: 0
+233resource_id: 0
+233resource_calendar_id: 0
+233parent_id: 0
+233coach_id: 0
+233tz: 0
+233hr_presence_state: 0
+233last_activity: 0
+233last_activity_time: 0
+233attendance_ids: 0
+233last_attendance_id: 0
+233last_check_in: 0
+233last_check_out: 0
+233attendance_state: 0
+233hours_last_month: 0
+233hours_today: 0
+233hours_last_month_display: 0
+233leave_manager_id: 0
+233remaining_leaves: 0
+233current_leave_state: 0
+233current_leave_id: 0
+233leave_date_from: 0
+233leave_date_to: 0
+233leaves_count: 0
+233allocation_count: 0
+233allocation_used_count: 0
+233show_leaves: 0
+233is_absent: 0
+233allocation_display: 0
+233allocation_used_display: 0
+233child_all_count: 0
+233id: '1'
+233display_name: 0
+233create_uid: 0
+233create_date: 0
+233write_uid: 0
+233write_date: 0
+233__last_update: 0
+282name: '1'
+282active: '1'
+282employee_id: '1'
+282department_id: '1'
+282id: '1'
+282display_name: '1'
+219id: '1'
+219name: '1'
+219description: '1'
+219categ_id: '1'
+282job_id: 0
+282date_start: 0
+282date_end: 0
+282trial_date_end: 0
+282wage: 0
+282advantages: 0
+282notes: 0
+282state: 0
+282company_id: 0
+282kanban_state: 0
+282permit_no: 0
+282visa_no: 0
+282visa_expire: 0
+282hr_responsible_id: 0
+282calendar_mismatch: 0
+282activity_ids: 0
+282activity_state: 0
+282activity_user_id: 0
+282activity_type_id: 0
+282activity_date_deadline: 0
+282activity_summary: 0
+282activity_exception_decoration: 0
+282activity_exception_icon: 0
+282message_is_follower: 0
+282message_follower_ids: 0
+282message_ids: 0
+282message_unread: 0
+282message_unread_counter: 0
+282message_needaction: 0
+282message_needaction_counter: 0
+282message_has_error: 0
+282message_has_error_counter: 0
+282message_attachment_count: 0
+282message_main_attachment_id: 0
+282website_message_ids: 0
+282message_has_sms_error: 0
+282create_uid: 0
+282create_date: 0
+282write_uid: 0
+282write_date: 0
+282__last_update: 0
+282x_doc: 0
+219purchase_line_warn: 0
+219purchase_line_warn_msg: 0
+219cost_method: 0
+219valuation: 0
+219route_ids: 0
+219service_type: 0
+219sale_line_warn: 0
+219sale_line_warn_msg: 0
+219expense_policy: 0
+219visible_expense_policy: 0
+219invoice_policy: 0
+219service_to_purchase: 0
+219active: '1'
+219image_1920: '1'

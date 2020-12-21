@@ -1,0 +1,20 @@
+uuid: 8e0805d9-c77d-4bb5-a30c-b60f6120b7ab
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.m90_visa_expire
+field_name: m90_visa_expire
+entity_type: node
+type: datetime
+settings:
+  datetime_type: datetime
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

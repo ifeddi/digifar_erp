@@ -1,0 +1,23 @@
+uuid: 1db02d4e-b596-4145-b1a0-a6c86da85642
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.m90_image_1024
+field_name: m90_image_1024
+entity_type: node
+type: file
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

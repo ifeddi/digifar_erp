@@ -12,5 +12,14 @@ allowed_content_entity_types:
       landing_page: landing_page
       page: page
       odoo_project: odoo_project
+      res_partner: res_partner
+      hr_contract: hr_contract
+      hr_employee: hr_employee
+      hr_department: hr_department
+      sale_order: sale_order
+      project_task: project_task
+      product_product: product_product
+      project_project: project_project
+      res_users: res_users
 _core:
   default_config_hash: QnLi3Y7e5T_v9EZqYxRb90E0bBDb2g1y7xREWLKJLC0

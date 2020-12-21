@@ -1,0 +1,7 @@
+odoo_sync.configuration:
+  path: '/admin/odoo/configuration'
+  defaults:
+    _title: 'Odoo Sync Data'
+    _form: '\Drupal\odoo_sync\Form\OdooConfigForm'
+  requirements:
+    _permission: 'administer content'

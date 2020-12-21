@@ -1,0 +1,4 @@
+odoo_sync.configuration:
+  route_name: odoo_sync.configuration
+  title: 'Odoo Sync Configuration'
+  base_route: odoo_sync.configuration

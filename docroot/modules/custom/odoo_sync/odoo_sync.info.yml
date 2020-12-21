@@ -1,0 +1,8 @@
+name: 'Odoo Sync'
+type: module
+description: 'Odoo sync module.'
+core: 8.x
+package: 'Odoo'
+
+version: '8.x-1.0-alpha1'
+project: 'digifar_erp'

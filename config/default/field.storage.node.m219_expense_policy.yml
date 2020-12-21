@@ -1,0 +1,21 @@
+uuid: c40861d1-0dd8-47be-9b3c-7c1669b7cf0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.m219_expense_policy
+field_name: m219_expense_policy
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

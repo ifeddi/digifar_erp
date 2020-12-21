@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - node.type.landing_page
-    - node.type.odoo_project
     - node.type.page
   module:
     - content_moderation
@@ -75,5 +74,4 @@ type_settings:
   entity_types:
     node:
       - landing_page
-      - odoo_project
       - page

@@ -1,0 +1,20 @@
+uuid: 690c0fba-ca23-48dd-afd2-7bb8059596f6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.advantages
+field_name: advantages
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

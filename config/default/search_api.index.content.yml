@@ -40,8 +40,8 @@ field_settings:
       view_mode:
         'entity:node':
           landing_page: full
-          odoo_project: default
           page: default
+          res_partner: default
   status:
     label: null
     datasource_id: 'entity:node'

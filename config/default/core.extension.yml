@@ -22,7 +22,6 @@ module:
   ctools: 0
   datetime: 0
   dblog: 0
-  devel: 0
   diff: 0
   dropzonejs: 0
   editor: 0
@@ -30,8 +29,12 @@ module:
   entity_block: 0
   entity_browser: 0
   entity_browser_block: 0
+  entity_delete: 0
   entity_embed: 0
   external_data_source: 0
+  feeds: 0
+  feeds_ex: 0
+  feeds_http_auth_fetcher: 0
   field: 0
   field_ui: 0
   file: 0
@@ -93,6 +96,7 @@ module:
   odoo_api_logs: 0
   odoo_api_migrate: 0
   odoo_api_migrate_example: 0
+  odoo_sync: 0
   openapi: 0
   openapi_jsonapi: 0
   openapi_ui: 0
@@ -121,6 +125,7 @@ module:
   slick_entityreference: 0
   system: 0
   taxonomy: 0
+  taxonomy_multidelete_terms: 0
   text: 0
   token: 0
   toolbar: 0
@@ -130,6 +135,8 @@ module:
   views_infinite_scroll: 0
   views_ui: 0
   workflows: 0
+  xmlrpc: 0
+  xmlrpc_example: 0
   menu_link_content: 1
   pathauto: 1
   content_translation: 10
